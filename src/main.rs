@@ -3,6 +3,7 @@ use std::fs::File;
 use std::io::{self, BufRead, BufReader};
 use std::process;
 
+mod parser;
 
 #[derive(Debug, Default)]
 
